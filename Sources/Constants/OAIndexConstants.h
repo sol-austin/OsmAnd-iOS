@@ -81,6 +81,7 @@ static NSString * const HIDDEN_DIR = @"Hidden";
 
 static NSString * const BACKUP_INDEX_DIR = @"backup/";
 static NSString * const GPX_INDEX_DIR = @"tracks/";
+static NSString * const TRACKS_DIR = @"tracks";
 static NSString * const MAP_MARKERS_INDEX_DIR = @"/map markers";
 //public static final String GPX_RECORDED_INDEX_DIR = GPX_INDEX_DIR + "rec/";
 //public static final String GPX_IMPORT_DIR = GPX_INDEX_DIR + "import/";

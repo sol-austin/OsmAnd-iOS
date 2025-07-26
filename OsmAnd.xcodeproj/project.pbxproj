@@ -844,6 +844,14 @@
 		46FB65B92A8BBC2000A21850 /* CoordinatesBaseWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB65B62A8BBC2000A21850 /* CoordinatesBaseWidget.swift */; };
 		46FB65BA2A8BBC2000A21850 /* CoordinatesMapCenterWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB65B72A8BBC2000A21850 /* CoordinatesMapCenterWidget.swift */; };
 		46FB65BC2A8BCF2300A21850 /* WidgetUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB65BB2A8BCF2200A21850 /* WidgetUtils.swift */; };
+		5B8292FB2E352E2300C39C9A /* DropofftoKilve.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B8292FA2E352E2300C39C9A /* DropofftoKilve.gpx */; };
+		5B8293032E352F6900C39C9A /* SplatttoChurch.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B8293022E352F6900C39C9A /* SplatttoChurch.gpx */; };
+		5B8293042E352F6900C39C9A /* DropofftoLydeard (1).gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B8292FC2E352F6900C39C9A /* DropofftoLydeard (1).gpx */; };
+		5B8293052E352F6900C39C9A /* LydeardtoSplatt.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B8293012E352F6900C39C9A /* LydeardtoSplatt.gpx */; };
+		5B8293062E352F6900C39C9A /* LydeardtoChurch.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B8292FF2E352F6900C39C9A /* LydeardtoChurch.gpx */; };
+		5B8293072E352F6900C39C9A /* KilvetoSplatt (1).gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B8292FE2E352F6900C39C9A /* KilvetoSplatt (1).gpx */; };
+		5B8293082E352F6900C39C9A /* DropofftoSplatt (1).gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B8292FD2E352F6900C39C9A /* DropofftoSplatt (1).gpx */; };
+		5B8293092E352F6900C39C9A /* LydeardtoPickup.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B8293002E352F6900C39C9A /* LydeardtoPickup.gpx */; };
 		780AB027242B3730001DF5EF /* ic_custom_safari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 780AB023242B372F001DF5EF /* ic_custom_safari@2x.png */; };
 		780AB029242B3730001DF5EF /* ic_custom_safari@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 780AB024242B372F001DF5EF /* ic_custom_safari@3x.png */; };
 		780AB02D242B683B001DF5EF /* img_empty_state_contour_lines@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 780AB02C242B683A001DF5EF /* img_empty_state_contour_lines@3x.png */; };
@@ -4360,6 +4368,14 @@
 		46FB65B62A8BBC2000A21850 /* CoordinatesBaseWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatesBaseWidget.swift; sourceTree = "<group>"; };
 		46FB65B72A8BBC2000A21850 /* CoordinatesMapCenterWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatesMapCenterWidget.swift; sourceTree = "<group>"; };
 		46FB65BB2A8BCF2200A21850 /* WidgetUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetUtils.swift; sourceTree = "<group>"; };
+		5B8292FA2E352E2300C39C9A /* DropofftoKilve.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DropofftoKilve.gpx; sourceTree = "<group>"; };
+		5B8292FC2E352F6900C39C9A /* DropofftoLydeard (1).gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "DropofftoLydeard (1).gpx"; sourceTree = "<group>"; };
+		5B8292FD2E352F6900C39C9A /* DropofftoSplatt (1).gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "DropofftoSplatt (1).gpx"; sourceTree = "<group>"; };
+		5B8292FE2E352F6900C39C9A /* KilvetoSplatt (1).gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "KilvetoSplatt (1).gpx"; sourceTree = "<group>"; };
+		5B8292FF2E352F6900C39C9A /* LydeardtoChurch.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LydeardtoChurch.gpx; sourceTree = "<group>"; };
+		5B8293002E352F6900C39C9A /* LydeardtoPickup.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LydeardtoPickup.gpx; sourceTree = "<group>"; };
+		5B8293012E352F6900C39C9A /* LydeardtoSplatt.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LydeardtoSplatt.gpx; sourceTree = "<group>"; };
+		5B8293022E352F6900C39C9A /* SplatttoChurch.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SplatttoChurch.gpx; sourceTree = "<group>"; };
 		780AB023242B372F001DF5EF /* ic_custom_safari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_custom_safari@2x.png"; path = "Resources/Icons/ic_custom_safari@2x.png"; sourceTree = "<group>"; };
 		780AB024242B372F001DF5EF /* ic_custom_safari@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_custom_safari@3x.png"; path = "Resources/Icons/ic_custom_safari@3x.png"; sourceTree = "<group>"; };
 		780AB02C242B683A001DF5EF /* img_empty_state_contour_lines@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "img_empty_state_contour_lines@3x.png"; path = "Resources/Icons/img_empty_state_contour_lines@3x.png"; sourceTree = "<group>"; };
@@ -10107,6 +10123,14 @@
 		BBE57D4F17C2208600C349CC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5B8292FC2E352F6900C39C9A /* DropofftoLydeard (1).gpx */,
+				5B8292FD2E352F6900C39C9A /* DropofftoSplatt (1).gpx */,
+				5B8292FE2E352F6900C39C9A /* KilvetoSplatt (1).gpx */,
+				5B8292FF2E352F6900C39C9A /* LydeardtoChurch.gpx */,
+				5B8293002E352F6900C39C9A /* LydeardtoPickup.gpx */,
+				5B8293012E352F6900C39C9A /* LydeardtoSplatt.gpx */,
+				5B8293022E352F6900C39C9A /* SplatttoChurch.gpx */,
+				5B8292FA2E352E2300C39C9A /* DropofftoKilve.gpx */,
 				843394751FF4FA37006205A5 /* sounds */,
 				8463101B1A8E8951005B39F2 /* Images.xcassets */,
 				3AFEEE231A0E343600900A47 /* Icons */,
@@ -15021,6 +15045,7 @@
 				DA6471AF22CF5433008F937F /* ic_custom_contour_lines@3x.png in Resources */,
 				DA5A842726C563A800F274C7 /* OAImpassableRoadViewController.xib in Resources */,
 				DAF2F814254825BA00967935 /* map_plan_route_point_movable@2x.png in Resources */,
+				5B8292FB2E352E2300C39C9A /* DropofftoKilve.gpx in Resources */,
 				DA5A844126C563A900F274C7 /* OAMapillaryImageViewController.xib in Resources */,
 				C5CD4CF229EFE6AC00B35C3D /* ic_navbar_trash@3x.png in Resources */,
 				DA5A840526C563A800F274C7 /* OAPOIViewController.xib in Resources */,
@@ -15544,6 +15569,13 @@
 				15B4E49924AB3FD700119365 /* list_warnings_speed_camera@3x.png in Resources */,
 				46453AF7283523C2001F9A3A /* ic_custom_contour_lines_colored_big@3x.png in Resources */,
 				DAF3458F22F4482C009E2EB6 /* ic_custom_compound_action_play@2x.png in Resources */,
+				5B8293032E352F6900C39C9A /* SplatttoChurch.gpx in Resources */,
+				5B8293042E352F6900C39C9A /* DropofftoLydeard (1).gpx in Resources */,
+				5B8293052E352F6900C39C9A /* LydeardtoSplatt.gpx in Resources */,
+				5B8293062E352F6900C39C9A /* LydeardtoChurch.gpx in Resources */,
+				5B8293072E352F6900C39C9A /* KilvetoSplatt (1).gpx in Resources */,
+				5B8293082E352F6900C39C9A /* DropofftoSplatt (1).gpx in Resources */,
+				5B8293092E352F6900C39C9A /* LydeardtoPickup.gpx in Resources */,
 				0AD6B8D1273BF0C900D68E0B /* ic_custom_location_marker@3x.png in Resources */,
 				0A0EAC0926E619600044E82C /* ic_custom_road_style@2x.png in Resources */,
 				DA52CDF924AE087F00CC309D /* img_help_length_limit_day@3x.png in Resources */,
@@ -18240,27 +18272,34 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "OsmAnd Maps.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4.7.4.2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = LM67P5MQ23;
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LM67P5MQ23;
+				DEVELOPMENT_TEAM = W7XVD3S3V5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
 					"$(PROJECT_DIR)/Libraries/Charts/build/Debug-iphonesimulator",
 					"$(PROJECT_DIR)/Libraries/Charts/build/EagerLinkingTBDs/Debug-iphonesimulator",
+					"/opt/homebrew/opt/qt@5/lib",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Support Files/OA-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"HAVE_FDOPEN=1",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
 					"\"$(SDKROOT)/usr/include/libxml2\"",
 					"\"${PODS_ROOT}/Headers/Private/BRCybertron/BRCybertron/libxslt\"",
 					"\"${PODS_ROOT}/Headers/Private/BRCybertron/libxslt\"",
+					"/opt/homebrew/opt/qt@5/include/**",
+					"/opt/homebrew/opt/qt@5/lib/**",
+					"/Users/solomonabrahams/Qt/5.15.10-ios/lib",
 				);
 				INFOPLIST_PREPROCESSOR_DEFINITIONS = "OSMAND_BUNDLE_ID=net.osmand.maps";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -18271,6 +18310,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"/Users/solomonabrahams/Qt/5.15.10-ios/lib",
+					"/opt/homebrew/opt/qt@5/lib",
 				);
 				MARKETING_VERSION = 4.7.4;
 				OBJROOT = $SYMROOT;
@@ -18288,10 +18329,10 @@
 					"-lpng_static",
 					"-lz_static",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.osmand.habomaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "Generic OsmAnd Profile";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Dev OsmAnd Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/OsmAnd Maps-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -18312,12 +18353,10 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "OsmAnd Maps.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4.7.4.2;
-				DEVELOPMENT_TEAM = LM67P5MQ23;
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LM67P5MQ23;
+				DEVELOPMENT_TEAM = W7XVD3S3V5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
@@ -18332,6 +18371,9 @@
 					"\"$(SDKROOT)/usr/include/libxml2\"",
 					"\"${PODS_ROOT}/Headers/Private/BRCybertron/BRCybertron/libxslt\"",
 					"\"${PODS_ROOT}/Headers/Private/BRCybertron/libxslt\"",
+					"/opt/homebrew/opt/qt@5/include/**",
+					"/opt/homebrew/opt/qt@5/lib/**",
+					"/Users/solomonabrahams/Qt/5.15.10-ios/lib",
 				);
 				INFOPLIST_PREPROCESSOR_DEFINITIONS = "OSMAND_BUNDLE_ID=net.osmand.maps";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -18359,10 +18401,10 @@
 					"-lpng_static",
 					"-lz_static",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.osmand.habomaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "Generic OsmAnd Profile";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Dev OsmAnd Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/OsmAnd Maps-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

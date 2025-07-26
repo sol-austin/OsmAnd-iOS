@@ -11,7 +11,7 @@
 #import "OsmAndApp.h"
 #import "OsmAndSharedWrapper.h"
 
-#include <QBuffer>
+#include <QtCore/QBuffer>
 
 #include <OsmAndCore/Utilities.h>
 #include <OsmAndCore/NetworkRouteSelector.h>

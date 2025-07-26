@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -32,17 +32,17 @@
                             </constraints>
                         </imageView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IS6-Xl-mKG">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="157"/>
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="170"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u33-HJ-WKl">
-                            <rect key="frame" x="0.0" y="311" width="320" height="157"/>
+                            <rect key="frame" x="0.0" y="298" width="320" height="170"/>
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_text_osmand_maps" translatesAutoresizingMaskIntoConstraints="NO" id="7as-3R-FuC">
-                                    <rect key="frame" x="54.5" y="64" width="211" height="29"/>
+                                    <rect key="frame" x="38.5" y="55" width="243" height="60"/>
                                 </imageView>
                                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="e3k-iN-jNF">
-                                    <rect key="frame" x="150" y="109" width="20" height="20"/>
+                                    <rect key="frame" x="150" y="131" width="20" height="20"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="20" id="Hbj-vn-bQZ"/>
                                         <constraint firstAttribute="height" constant="20" id="YEp-RN-73H"/>
@@ -58,7 +58,7 @@
                             </constraints>
                         </view>
                         <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_logo_osmand" translatesAutoresizingMaskIntoConstraints="NO" id="KgD-Hx-L7y">
-                            <rect key="frame" x="83" y="157" width="154" height="154"/>
+                            <rect key="frame" x="96" y="170" width="128" height="128"/>
                         </imageView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v5B-dz-rXr">
                             <rect key="frame" x="0.0" y="476" width="320" height="26"/>
@@ -100,9 +100,9 @@
         </view>
     </objects>
     <resources>
-        <image name="img_logo_osmand" width="154" height="154"/>
+        <image name="img_logo_osmand" width="128" height="128"/>
         <image name="img_text_openstreetmap" width="230" height="20"/>
-        <image name="img_text_osmand_maps" width="211" height="29"/>
+        <image name="img_text_osmand_maps" width="243" height="60"/>
         <namedColor name="launchScreenBgColor">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

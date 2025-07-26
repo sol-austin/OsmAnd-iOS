@@ -22,23 +22,32 @@ struct RunningCharacteristic {
     let isRunning: Bool
     
     init(data: Data) throws {
-        let speedValue = Double(try data.read(fromOffset: 1) as UInt16) / 256
-        speed = Measurement(value: speedValue, unit: .metersPerSecond)
-        cadence = Int(try data.read(fromOffset: 3) as UInt8)
-        
-        let bitFlags: UInt8 = try data.read(fromOffset: 0)
-        
-        isRunning = Flag.isAvailable(bits: bitFlags, flag: .isRunning)
-        
-        strideLength = try Flag.isAvailable(bits: bitFlags, flag: .strideLength) ? {
-            let strideLengthValue: UInt16 = try data.read(fromOffset: 4)
-            return Measurement(value: Double(strideLengthValue), unit: .centimeters)
-        }() : nil
-        
-        totalDistance = try Flag.isAvailable(bits: bitFlags, flag: .totalDistance) ? {
-            let offset = Flag.isAvailable(bits: bitFlags, flag: .strideLength) ? 6 : 4
-            let totalDistanceValue: UInt32 = try data.read(fromOffset: offset)
-            return Measurement(value: Double(Double(totalDistanceValue)), unit: .decameters)
-        }() : nil
-    }
+            let speedValue = Double(try data.read(fromOffset: 1) as UInt16) / 256
+            speed = Measurement(value: speedValue, unit: .metersPerSecond)
+            cadence = Int(try data.read(fromOffset: 3) as UInt8)
+
+            let bitFlags: UInt8 = try data.read(fromOffset: 0)
+            isRunning = Flag.isAvailable(bits: bitFlags, flag: .isRunning)
+
+            // pull these out so we can reuse them
+            let hasStride = Flag.isAvailable(bits: bitFlags, flag: .strideLength)
+            let hasTotal  = Flag.isAvailable(bits: bitFlags, flag: .totalDistance)
+
+            // strideLength
+            if hasStride {
+                let raw: UInt16 = try data.read(fromOffset: 4)
+                strideLength = Measurement(value: Double(raw), unit: .centimeters)
+            } else {
+                strideLength = nil
+            }
+
+            // totalDistance (offset depends on whether strideLength was present)
+            if hasTotal {
+                let offset = hasStride ? 6 : 4
+                let raw: UInt32 = try data.read(fromOffset: offset)
+                totalDistance = Measurement(value: Double(raw), unit: .decameters)
+            } else {
+                totalDistance = nil
+            }
+        }
 }

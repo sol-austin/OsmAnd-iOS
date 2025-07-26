@@ -13,6 +13,7 @@
 #include <QIODevice>
 #include <QStack>
 #include <QXmlStreamWriter>
+#include <QtCore/QBuffer>
 
 NSString * const OAXmlStreamWriterErrorDomain = @"OAXmlStreamWriterError";
 

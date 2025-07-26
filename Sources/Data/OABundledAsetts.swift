@@ -109,10 +109,37 @@ final class BundledAssets: NSObject {
             to: documentsPath.appendingPathComponent(MODEL_3D_DIR),
             folderName: MODEL_3D_DIR, removeOriginalFile: false, versionChanged: versionChanged
         )
+        migratePreloadedTracks()
         if movedRes || movedSqlite {
             return true
         }
         return false
+    }
+    
+    private func migratePreloadedTracks() {
+        guard let bundlePath = Bundle.main.resourcePath else { return }
+        
+        let fileManager = FileManager.default
+        guard let gpxPath = OsmAndApp.swiftInstance()?.gpxPath,
+              let files = try? fileManager.contentsOfDirectory(atPath: bundlePath) else { return }
+        
+        let gpxFiles = files.filter { $0.hasSuffix(".gpx") }
+        
+        for file in gpxFiles {
+            let sourcePath = bundlePath.appendingPathComponent(file)
+            let destPath = gpxPath.appendingPathComponent(file)
+            
+            if !fileManager.fileExists(atPath: destPath) {
+                do {
+                    try fileManager.copyItem(atPath: sourcePath, toPath: destPath)
+                    DispatchQueue.main.async {
+                        OAGPXDatabase.sharedDb().addGPXFile(toDBIfNeeded: destPath)
+                    }
+                } catch {
+                    print("Error copying GPX: \(error)")
+                }
+            }
+        }
     }
     
     func migrateMapNames(at path: String) {
